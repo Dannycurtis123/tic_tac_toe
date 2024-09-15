@@ -5,9 +5,10 @@
 #region IMPORTS
 from __future__ import annotations
 import enum
+from dataclasses import dataclass
 #endregion IMPORTS
 
-#region CLASS
+#region PLAYERMARK CLASS
 class PlayerMark(enum.StrEnum):
     '''
         Define player token values
@@ -22,4 +23,8 @@ class PlayerMark(enum.StrEnum):
             Assign player token values
         '''
         return PlayerMark.EXES if self is PlayerMark.OHS else PlayerMark.OHS
-#endregion CLASS
+#endregion PLAYERMARK CLASS
+
+#region GRID
+
+#endregionGRID
